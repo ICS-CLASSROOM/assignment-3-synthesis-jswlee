@@ -1,0 +1,136 @@
+{
+    "id": "b9fd2dd8-181b-494b-ab15-e9f286d668d9",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-02-25",
+        "description": "Ambulatory",
+        "provider_id": "046c4fac-2680-391a-ba36-eeaec6eed0c5",
+        "facility_id": "e002090d-4e92-300e-b41e-7d1f21dee4c6"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "headache",
+                "dyspnea",
+                "wheezing",
+                "muscle pain",
+                "joint pain",
+                "fever",
+                "complete loss of taste"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Mr. Milo271 Feil794",
+        "date_of_birth": "1983-12-12",
+        "age": 36,
+        "gender": "Male",
+        "insurance": "Guardian"
+    },
+    "medications": [],
+    "immunizations": null,
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 39.9,
+                "unit": "Celsius"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 82.1,
+                "unit": "bpm"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 122.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 80.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 31.5,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 89.0,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 112.7,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "SARS-CoV-2 RNA",
+            "description": "COVID-19 Testing",
+            "result": "DETECTED"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": null,
+            "parainfluenza_1": null,
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": null,
+            "metapneumovirus": null,
+            "adenovirus": null
+        }
+    },
+    "procedures": [],
+    "care_plans": [
+        {
+            "description": "Face mask provided",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Patient education on isolation protocols",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Close monitoring of respiratory status required given oxygen saturation",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Follow-up care to be arranged based on clinical course",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

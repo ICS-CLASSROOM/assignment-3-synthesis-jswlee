@@ -1,0 +1,199 @@
+{
+    "id": "ae9efba3-ddc4-43f9-a781-f72019388548",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-11",
+        "description": "Ambulatory/Urgent Care",
+        "provider_id": "f59948a6-b07a-3248-9661-60f5924b644b",
+        "facility_id": "5d4b9df1-93ae-3bc9-b680-03249990e558"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "fever",
+                "severe headache",
+                "persistent cough",
+                "marked fatigue",
+                "nausea and vomiting",
+                "complete loss of taste"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Jayson Fadel",
+        "date_of_birth": "1992-06-30",
+        "age": 27,
+        "gender": "Male",
+        "insurance": "Guardian"
+    },
+    "medications": [
+        {
+            "code": "999967",
+            "description": "amLODIPine/Hydrochlorothiazide/Olmesartan (5/12.5/20 mg) daily"
+        }
+    ],
+    "immunizations": [
+        {
+            "code": null,
+            "description": "Influenza vaccine",
+            "immunization_date": "2019-10-15"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 41.1,
+                "unit": "Celsius"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 187.0,
+                "unit": "bpm"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 187.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 96.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 33.0,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 88.7,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 68.2,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "vital_measurement_date": "2019-10-15",
+            "height": {
+                "code": null,
+                "value": 165.7,
+                "unit": "cm"
+            },
+            "weight": {
+                "code": null,
+                "value": 68.2,
+                "unit": "kg"
+            },
+            "bmi": {
+                "code": null,
+                "value": 24.8,
+                "unit": "kg/m2"
+            },
+            "bmi_percentile": null
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 test",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": {
+                "name": "RSV",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "name": "Parainfluenza 1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "name": "Parainfluenza 2",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "name": "Parainfluenza 3",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "name": "Rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "name": "Human Metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "name": "Adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": null,
+    "care_plans": [
+        {
+            "description": "Face mask and oxygen support provided",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Close monitoring of blood pressure and cardiac status",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Continue current antihypertensive medications",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Aggressive fever management",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Monitor for worsening respiratory status",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Patient education provided: COVID-19 isolation protocols, Warning signs requiring immediate attention, Importance of blood pressure monitoring, Hydration guidance",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

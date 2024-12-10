@@ -1,0 +1,157 @@
+{
+    "encounter": {
+        "id": "055ae6fc-7e18-4a39-8058-64082ca6d515",
+        "date": "2020-03-02",
+        "time": "15:45:00-16:30",
+        "type": {
+            "code": "well_child_visit",
+            "description": "Well child visit"
+        },
+        "provider_id": "e2c226c2-3e1e-3d0b-b997-ce9544c10528",
+        "facility_id": "5103c940-0c08-392f-95cd-446e0cea042a"
+    },
+    "demographics": {
+        "name": "Jeffrey Greenfelder",
+        "date_of_birth": "2005-01-16",
+        "age": 15,
+        "gender": "Male",
+        "address": {
+            "city": "Springfield",
+            "state": "Massachusetts"
+        },
+        "insurance": "Guardian"
+    },
+    "conditions": [
+        {
+            "code": "obesity",
+            "description": "Obesity (diagnosed 2017)"
+        }
+    ],
+    "medications": [],
+    "immunizations": [
+        {
+            "code": "influenza_vaccine",
+            "description": "Influenza vaccine",
+            "date": "2020-02-23"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": "temperature",
+                "value": 39.3,
+                "unit": "°C"
+            },
+            "heart_rate": {
+                "code": "heart_rate",
+                "value": 131.1,
+                "unit": "/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": "systolic",
+                    "value": 120.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": "diastolic",
+                    "value": 73.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": "respiratory_rate",
+                "value": 27.6,
+                "unit": "/min"
+            },
+            "oxygen_saturation": {
+                "code": "oxygen_saturation",
+                "value": 75.8,
+                "unit": "%"
+            },
+            "weight": {
+                "code": "weight",
+                "value": 81.2,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "date": "2020-02-23",
+            "height": {
+                "code": "height",
+                "value": 155.0,
+                "unit": "cm"
+            },
+            "weight": {
+                "code": "weight",
+                "value": 81.2,
+                "unit": "kg"
+            },
+            "bmi": {
+                "code": "bmi",
+                "value": 33.8,
+                "unit": "kg/m²"
+            },
+            "bmi_percentile": {
+                "code": "bmi_percentile",
+                "value": 99.1,
+                "unit": "th percentile"
+            }
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "SARS-CoV-2",
+            "description": "SARS-CoV-2 RNA",
+            "result": "Not detected"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "code": "influenza_a",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "code": "influenza_b",
+                "result": "Negative"
+            },
+            "rsv": {
+                "code": "rsv",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "code": "parainfluenza_1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "code": "parainfluenza_2",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "code": "parainfluenza_3",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "code": "rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "code": "metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "code": "adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": [],
+    "care_plans": [
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": "2020-03-02",
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "id": "353016ea-a0ff-4154-85bb-1cf8b6cedf20",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-03",
+        "description": "Ambulatory/Urgent Care",
+        "provider_id": "6ba172e8-ae6d-3c6c-9f49-38096f9d1e1e",
+        "facility_id": "d78e84ec-30aa-3bba-a33a-f29a3a454662"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "fever",
+                "productive cough",
+                "nasal congestion",
+                "severe fatigue"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Gregorio Auer",
+        "date_of_birth": "1996-11-15",
+        "age": 23,
+        "gender": "Male",
+        "insurance": "Medicare/Medicaid"
+    },
+    "medications": [],
+    "immunizations": null,
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 38.8,
+                "unit": "\u00b0C"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 51.0,
+                "unit": "/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 116.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 80.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 19.0,
+                "unit": "/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 77.6,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 91.2,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": null,
+            "parainfluenza_1": null,
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": null,
+            "metapneumovirus": null,
+            "adenovirus": null
+        }
+    },
+    "procedures": [],
+    "care_plans": [
+        {
+            "description": "Face mask and oxygen support provided",
+            "start": "2020-03-03",
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": "2020-03-03",
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Close monitoring of oxygen saturation, heart rate given bradycardia, and respiratory status",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Patient education provided on isolation protocols, warning signs requiring immediate attention, activity limitations, and return precautions",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

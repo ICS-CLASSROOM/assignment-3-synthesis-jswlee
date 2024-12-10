@@ -1,0 +1,171 @@
+{
+    "id": "199c586f-af16-4091-9998-ee4cfc02ee7a",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-02",
+        "description": "Urgent Care",
+        "provider_id": "8be741d6-44d0-3412-88dd-4987e1559f0b",
+        "facility_id": "b1ddf812-1fdd-3adf-b1d5-32cc8bd07ebb"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "fever",
+                "productive cough with sputum",
+                "nausea",
+                "vomiting"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Jimmie Harris",
+        "date_of_birth": "2004-01-09",
+        "age": 16,
+        "gender": "Female",
+        "insurance": "Medicare/Medicaid"
+    },
+    "medications": [
+        {
+            "code": "757594",
+            "description": "Jolivette (oral contraceptive)"
+        }
+    ],
+    "immunizations": [
+        {
+            "code": null,
+            "description": "Influenza vaccine",
+            "immunization_date": "2020-02-21"
+        },
+        {
+            "code": null,
+            "description": "Meningococcal vaccine",
+            "immunization_date": "2020-02-21"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 40.7,
+                "unit": "Celsius"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 98.0,
+                "unit": "bpm"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 120.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 89.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 22.0,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 78.2,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 45.3,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "vital_measurement_date": "2020-02-21",
+            "height": {
+                "code": null,
+                "value": 149.3,
+                "unit": "cm"
+            },
+            "weight": {
+                "code": null,
+                "value": 45.3,
+                "unit": "kg"
+            },
+            "bmi": {
+                "code": null,
+                "value": 20.3,
+                "unit": "kg/m2"
+            },
+            "bmi_percentile": {
+                "code": null,
+                "value": 47.6,
+                "unit": "%"
+            }
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": {
+                "name": "RSV",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "name": "Parainfluenza 1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "name": "Parainfluenza 2",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "name": "Parainfluenza 3",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "name": "Rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "name": "Human Metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "name": "Adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": null,
+    "care_plans": [
+        {
+            "description": "Face mask and oxygen support provided",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

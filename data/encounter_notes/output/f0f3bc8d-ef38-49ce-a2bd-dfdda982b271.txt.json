@@ -1,0 +1,147 @@
+{
+    "id": "f0f3bc8d-ef38-49ce-a2bd-dfdda982b271",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-02",
+        "description": "Ambulatory/Urgent Care",
+        "provider_id": "9c875a09-93e0-39aa-9260-ad264bbdd3fe",
+        "facility_id": "fd328395-ab1d-35c6-a2d0-d05a9a79cf11"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "Fever"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Jacinto Kris",
+        "date_of_birth": "2017-08-24",
+        "age": 2,
+        "gender": "Male",
+        "insurance": "Self-Pay"
+    },
+    "medications": [],
+    "immunizations": [
+        {
+            "code": null,
+            "description": "Influenza vaccine",
+            "immunization_date": "2019-08-01"
+        },
+        {
+            "code": null,
+            "description": "Hepatitis A vaccine",
+            "immunization_date": "2020-01-30"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 39.7,
+                "unit": "°C"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 164.0,
+                "unit": "/min"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 130.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 75.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 33.0,
+                "unit": "/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 86.2,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 13.5,
+                "unit": "kg"
+            }
+        },
+        "baseline": {
+            "vital_measurement_date": "2020-01-30",
+            "height": {
+                "code": null,
+                "value": 86.3,
+                "unit": "cm"
+            },
+            "weight": {
+                "code": null,
+                "value": 13.4,
+                "unit": "kg"
+            },
+            "bmi": {
+                "code": null,
+                "value": 18.0,
+                "unit": "kg/m2"
+            },
+            "bmi_percentile": {
+                "code": null,
+                "value": 88.0,
+                "unit": "%"
+            }
+        }
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": null,
+            "rsv": {
+                "name": "RSV",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "name": "Parainfluenza 1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": {
+                "name": "Rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "name": "Human metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "name": "Adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": null,
+    "care_plans": [
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": "2020-03-02",
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

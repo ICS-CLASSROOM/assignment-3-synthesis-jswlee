@@ -1,0 +1,154 @@
+{
+    "id": "f73d6f41-0091-4485-8b43-9d38eb98fb36",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-08",
+        "description": "Ambulatory",
+        "provider_id": "6b47028d-5118-3ace-91cc-a37789612e24",
+        "facility_id": "3d10019f-c88e-3de5-9916-6107b9c0263d"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "Productive cough with sputum",
+                "Fatigue",
+                "Fever"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Mrs. Leann224 Deckow585",
+        "date_of_birth": "1989-07-05",
+        "age": 30,
+        "gender": "Female",
+        "insurance": "Self"
+    },
+    "medications": [],
+    "immunizations": null,
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 40.1,
+                "unit": "Celsius"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 151.0,
+                "unit": "bpm"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 104.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 84.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 12.3,
+                "unit": "min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 88.9,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 69.6,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": null,
+            "parainfluenza_1": null,
+            "parainfluenza_2": null,
+            "parainfluenza_3": null,
+            "rhinovirus": null,
+            "metapneumovirus": null,
+            "adenovirus": null
+        }
+    },
+    "procedures": [
+        {
+            "code": "Complete prenatal panel",
+            "description": "Complete prenatal panel",
+            "procedure_date": "2020-03-11",
+            "reasonCode": "Pregnancy",
+            "reasonDescription": "Confirmation of pregnancy"
+        },
+        {
+            "code": "Ultrasound scan",
+            "description": "Ultrasound scan for fetal viability",
+            "procedure_date": "2020-03-11",
+            "reasonCode": "Pregnancy",
+            "reasonDescription": "Fetal viability assessment"
+        },
+        {
+            "code": "Pregnancy screening tests",
+            "description": "Standard pregnancy screening tests",
+            "procedure_date": "2020-03-11",
+            "reasonCode": "Pregnancy",
+            "reasonDescription": "Routine screening"
+        }
+    ],
+    "care_plans": [
+        {
+            "description": "Face mask provided for immediate respiratory support",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "High-risk pregnancy management due to COVID-19",
+            "start": "2020-03-08",
+            "stop": null,
+            "reasonCode": 1,
+            "reasonDescription": "COVID-19 infection with severe symptoms"
+        },
+        {
+            "description": "Patient education on COVID-19 isolation protocols, pregnancy-specific warning signs, and when to seek emergency care",
+            "start": null,
+            "stop": null,
+            "reasonCode": null,
+            "reasonDescription": null
+        },
+        {
+            "description": "Follow-up: COVID-19 monitoring and continue prenatal care",
+            "start": "2020-03-08",
+            "stop": "2020-04-08",
+            "reasonCode": null,
+            "reasonDescription": null
+        }
+    ]
+}

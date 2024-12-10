@@ -1,0 +1,150 @@
+{
+    "id": "df6b563d-1ff4-4833-9af8-84431e641e9c",
+    "encounter": {
+        "code": null,
+        "encounter_start": "2020-03-13",
+        "description": "Urgent Care",
+        "provider_id": "d76028b8-d23f-346e-abd0-65995aec66c8",
+        "facility_id": "Urgent Care Center"
+    },
+    "symptoms": [
+        {
+            "description": [
+                "fever",
+                "cough",
+                "severe fatigue",
+                "complete loss of taste",
+                "worsening shortness of breath"
+            ]
+        }
+    ],
+    "demographics": {
+        "name": "Ms. Brown",
+        "date_of_birth": "1982-09-29",
+        "age": 37,
+        "gender": "Female",
+        "insurance": "Medicare/Medicaid"
+    },
+    "medications": [
+        {
+            "code": "429503",
+            "description": "Hydrochlorothiazide 12.5 MG daily"
+        },
+        {
+            "code": "896209",
+            "description": "Fluticasone/Salmeterol 250/50 mcg inhaler BID"
+        }
+    ],
+    "immunizations": [
+        {
+            "code": null,
+            "description": "Influenza vaccine",
+            "immunization_date": "2020-03-11"
+        }
+    ],
+    "vitals": {
+        "current": {
+            "temperature": {
+                "code": null,
+                "value": 40.6,
+                "unit": "Celsius"
+            },
+            "heart_rate": {
+                "code": null,
+                "value": 179.0,
+                "unit": "bpm"
+            },
+            "blood_pressure": {
+                "systolic": {
+                    "code": null,
+                    "value": 106.0,
+                    "unit": "mmHg"
+                },
+                "diastolic": {
+                    "code": null,
+                    "value": 78.0,
+                    "unit": "mmHg"
+                }
+            },
+            "respiratory_rate": {
+                "code": null,
+                "value": 24.0,
+                "unit": "breaths/min"
+            },
+            "oxygen_saturation": {
+                "code": null,
+                "value": 83.6,
+                "unit": "%"
+            },
+            "weight": {
+                "code": null,
+                "value": 59.9,
+                "unit": "kg"
+            }
+        },
+        "baseline": null
+    },
+    "laboratory": {
+        "covid19": {
+            "code": "PCR",
+            "description": "COVID-19 PCR",
+            "result": "Positive"
+        },
+        "respiratory_panel": {
+            "influenza_a": {
+                "name": "Influenza A",
+                "result": "Negative"
+            },
+            "influenza_b": {
+                "name": "Influenza B",
+                "result": "Negative"
+            },
+            "rsv": {
+                "name": "RSV",
+                "result": "Negative"
+            },
+            "parainfluenza_1": {
+                "name": "Parainfluenza 1",
+                "result": "Negative"
+            },
+            "parainfluenza_2": {
+                "name": "Parainfluenza 2",
+                "result": "Negative"
+            },
+            "parainfluenza_3": {
+                "name": "Parainfluenza 3",
+                "result": "Negative"
+            },
+            "rhinovirus": {
+                "name": "Rhinovirus",
+                "result": "Negative"
+            },
+            "metapneumovirus": {
+                "name": "Human Metapneumovirus",
+                "result": "Negative"
+            },
+            "adenovirus": {
+                "name": "Adenovirus",
+                "result": "Negative"
+            }
+        }
+    },
+    "procedures": [
+        {
+            "code": "N/A",
+            "description": "Oxygen supplementation",
+            "procedure_date": "2020-03-13",
+            "reasonCode": "COVID-19 infection",
+            "reasonDescription": "Acute hypoxemia"
+        }
+    ],
+    "care_plans": [
+        {
+            "description": "Infectious disease care plan initiated",
+            "start": "2020-03-13",
+            "stop": null,
+            "reasonCode": 1,
+            "reasonDescription": "Confirmed COVID-19 infection with severe symptoms"
+        }
+    ]
+}
